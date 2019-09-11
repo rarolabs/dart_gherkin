@@ -7,7 +7,7 @@ import './regex_matched_syntax.dart';
 class FeatureSyntax extends RegExMatchedGherkinSyntax {
   @override
   final RegExp pattern =
-      RegExp(r"^Feature:\s*(.+)\s*", multiLine: false, caseSensitive: false);
+      RegExp(r"^Funcionalidade:\s*(.+)\s*", multiLine: false, caseSensitive: false);
 
   @override
   bool get isBlockSyntax => true;
