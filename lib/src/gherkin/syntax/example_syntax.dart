@@ -7,7 +7,7 @@ import './table_line_syntax.dart';
 
 class ExampleSyntax extends RegExMatchedGherkinSyntax {
   @override
-  final RegExp pattern = RegExp(r"^\s*Example[s]?:(\s*(.+)\s*)?$",
+  final RegExp pattern = RegExp(r"^\s*Exemplo[s]?:(\s*(.+)\s*)?$",
       multiLine: false, caseSensitive: false);
 
   @override

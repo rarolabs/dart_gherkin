@@ -8,7 +8,7 @@ import './table_line_syntax.dart';
 
 class StepSyntax extends RegExMatchedGherkinSyntax {
   @override
-  final RegExp pattern = RegExp(r"^(given|then|when|and|but)\s.*",
+  final RegExp pattern = RegExp(r"^(Dado|Dada|Dados|Dadas|Quando|Então|Entao|Mas|E)\s.*",
       multiLine: false, caseSensitive: false);
 
   @override

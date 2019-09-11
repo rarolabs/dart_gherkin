@@ -7,7 +7,7 @@ import './tag_syntax.dart';
 
 class ScenarioOutlineSyntax extends RegExMatchedGherkinSyntax {
   @override
-  final RegExp pattern = RegExp(r"^\s*Scenario Outline:(\s*(.+)\s*)?$",
+  final RegExp pattern = RegExp(r"^\s*Esquema do Cenário:(\s*(.+)\s*)?$",
       multiLine: false, caseSensitive: false);
 
   @override

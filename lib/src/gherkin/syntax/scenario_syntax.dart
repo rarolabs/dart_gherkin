@@ -7,7 +7,7 @@ import './tag_syntax.dart';
 
 class ScenarioSyntax extends RegExMatchedGherkinSyntax {
   @override
-  final RegExp pattern = RegExp(r"^\s*Scenario:\s*(.+)\s*$",
+  final RegExp pattern = RegExp(r"^\s*(Cenário|Cenario):\s*(.+)\s*$",
       multiLine: false, caseSensitive: false);
 
   @override

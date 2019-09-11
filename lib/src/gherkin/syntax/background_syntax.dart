@@ -9,7 +9,7 @@ import './tag_syntax.dart';
 
 class BackgroundSyntax extends RegExMatchedGherkinSyntax {
   @override
-  final RegExp pattern = RegExp(r"^\s*Background:(\s*(.+)\s*)?$",
+  final RegExp pattern = RegExp(r"^\s*Contexto:(\s*(.+)\s*)?$",
       multiLine: false, caseSensitive: false);
 
   @override
